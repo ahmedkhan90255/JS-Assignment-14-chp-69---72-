@@ -1,0 +1,38 @@
+body {
+    background-color: skyblue;
+    font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+    font-size: 45px;
+    text-decoration: underline black;
+    color: red;
+    background-color: wheat;
+}
+
+h1:hover {
+    background-color: blueviolet;
+    color: lightseagreen;
+}
+
+a {
+    text-decoration: underline darkcyan;
+    font-size: 35px;
+    color: rgb(142, 3, 197);
+    background-color: aqua;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+    
+}
+
+a:hover {
+    background-color: blueviolet;
+    color: rgb(197, 210, 235);
+}
